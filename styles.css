@@ -1,0 +1,33 @@
+
+body {
+    margin: 0;
+    background: black;
+    overflow: hidden;
+}
+#overlay {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+#message {
+    color: #00aaff;
+    font-size: 3em;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+#rocket, #explosion {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#rocket {
+    bottom: 0;
+}
+#explosion {
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
